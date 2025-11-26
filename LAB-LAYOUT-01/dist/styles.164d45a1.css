@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.color-box-text {
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+}
+
+.container-1 .base-color-1 {
+  background-color: #f42727;
+  width: 150px;
+}
+.container-1 .darken-1 {
+  background-color: rgb(242.7643171806, 14.7356828194, 14.7356828194);
+  color: #fff;
+}
+.container-1 .lighten-1 {
+  background-color: rgb(245.2356828194, 63.2643171806, 63.2643171806);
+  color: #000;
+}
+.container-1 .darken-2 {
+  background-color: rgb(220.7577092511, 11.2422907489, 11.2422907489);
+  color: #fff;
+}
+.container-1 .lighten-2 {
+  background-color: rgb(246.4713656388, 87.5286343612, 87.5286343612);
+  color: #000;
+}
+.container-1 .darken-3 {
+  background-color: rgb(196.4933920705, 10.0066079295, 10.0066079295);
+  color: #fff;
+}
+.container-1 .lighten-3 {
+  background-color: rgb(247.7070484581, 111.7929515419, 111.7929515419);
+  color: #000;
+}
+.container-1 .darken-4 {
+  background-color: rgb(172.2290748899, 8.7709251101, 8.7709251101);
+  color: #fff;
+}
+.container-1 .lighten-4 {
+  background-color: rgb(248.9427312775, 136.0572687225, 136.0572687225);
+  color: #000;
+}
+
+.container-2 .base-color-2 {
+  background-color: #37b241;
+  width: 150px;
+}
+.container-2 .darken-1 {
+  background-color: rgb(48.9806866953, 158.5193133047, 57.8862660944);
+  color: #fff;
+}
+.container-2 .lighten-1 {
+  background-color: rgb(62.8669527897, 195.6330472103, 73.660944206);
+  color: #000;
+}
+.container-2 .darken-2 {
+  background-color: rgb(42.9613733906, 139.0386266094, 50.7725321888);
+  color: #fff;
+}
+.container-2 .lighten-2 {
+  background-color: rgb(82.347639485, 201.652360515, 92.0472103004);
+  color: #000;
+}
+.container-2 .darken-3 {
+  background-color: rgb(36.9420600858, 119.5579399142, 43.6587982833);
+  color: #fff;
+}
+.container-2 .lighten-3 {
+  background-color: rgb(101.8283261803, 207.6716738197, 110.4334763948);
+  color: #000;
+}
+.container-2 .darken-4 {
+  background-color: rgb(30.9227467811, 100.0772532189, 36.5450643777);
+  color: #fff;
+}
+.container-2 .lighten-4 {
+  background-color: rgb(121.3090128755, 213.6909871245, 128.8197424893);
+  color: #000;
+}
+
+.container-3 .base-color-3 {
+  background-color: #3a52bc;
+  width: 150px;
+}
+.container-3 .darken-1 {
+  background-color: rgb(51.987804878, 73.5, 168.512195122);
+  color: #fff;
+}
+.container-3 .lighten-1 {
+  background-color: rgb(72.7317073171, 96, 198.7682926829);
+  color: #000;
+}
+.container-3 .darken-2 {
+  background-color: rgb(45.9756097561, 65, 149.0243902439);
+  color: #fff;
+}
+.container-3 .lighten-2 {
+  background-color: rgb(92.2195121951, 113, 204.7804878049);
+  color: #000;
+}
+.container-3 .darken-3 {
+  background-color: rgb(39.9634146341, 56.5, 129.5365853659);
+  color: #fff;
+}
+.container-3 .lighten-3 {
+  background-color: rgb(111.7073170732, 130, 210.7926829268);
+  color: #000;
+}
+.container-3 .darken-4 {
+  background-color: rgb(33.9512195122, 48, 110.0487804878);
+  color: #fff;
+}
+.container-3 .lighten-4 {
+  background-color: rgb(131.1951219512, 147, 216.8048780488);
+  color: #000;
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */

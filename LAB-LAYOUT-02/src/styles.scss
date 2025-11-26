@@ -1,0 +1,47 @@
+@import './theme-first.scss';
+// @import './theme-second.scss';
+
+body {
+    padding: 30px;
+}
+
+.font-primary {
+    font-family: $font-primary;
+}
+
+.font-secondary {
+    font-family: $font-secondary;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .box {
+        width: 200px;
+        height: 100px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border: 1px solid #efefef;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .box-primary {
+        background-color: $color-primary;
+    }
+
+    .box-important {
+        background-color: $color-important;
+    }
+
+    .box-warning {
+        background-color: $color-warning;
+    }
+
+    .box-shadow {
+        @include shadow();
+    }
+}

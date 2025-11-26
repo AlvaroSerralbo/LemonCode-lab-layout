@@ -1,0 +1,16 @@
+@use "sass:color";
+
+// Colores
+$color-primary: #3a52bc;
+$color-important: color.adjust($color-primary, $lightness: -20%);
+$color-warning: color.adjust($color-primary, $lightness: 20%);
+
+// Fuentes
+$font-primary: 'Arial', sans-serif;
+$font-secondary: 'Courier New', monospace;
+
+// Shadow mixin
+
+@mixin shadow() {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,71 @@
+@use "sass:color";
+@use "sass:list";
+
+// Colores base
+$base-color-1: #f42727;
+$base-color-2: #37b241;
+$base-color-3: #3a52bc;
+
+// Porcentajes para darken y lighten
+$darken-values: -5%, -10%, -15%, -20%;
+$lighten-values: 5%, 10%, 15%, 20%;
+
+// Mixin con loop para los distintos backgrounds
+@mixin color-variations($base-color, $container-number) {
+  .base-color-#{$container-number} {
+    background-color: $base-color;
+    width: 150px;
+  }
+  
+  @for $i from 1 through 4 {
+    .darken-#{$i} {
+      $darkened: color.adjust($base-color, $lightness: list.nth($darken-values, $i));
+      background-color: $darkened;
+      color: #fff;
+    }
+  
+    .lighten-#{$i} {
+      $lightened: color.adjust($base-color, $lightness: list.nth($lighten-values, $i));
+      background-color: $lightened;
+      color: #000;
+    }
+  }
+}
+
+// Estilos base
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.color-box-text {
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+}
+
+// Aplicamos el mixing para cada background
+.container-1 {
+  @include color-variations($base-color-1, 1);
+}
+
+.container-2 {
+  @include color-variations($base-color-2, 2);
+}
+
+.container-3 {
+  @include color-variations($base-color-3, 3);
+}
