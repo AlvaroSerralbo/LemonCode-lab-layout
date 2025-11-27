@@ -45,6 +45,7 @@ nav {
             padding: 15px 20px;
             cursor: pointer;
 
+            &.selected,
             &:hover {
                 background-color: #27495a;
             }
