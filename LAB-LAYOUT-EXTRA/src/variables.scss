@@ -1,0 +1,11 @@
+@use 'sass:color';
+
+$font-color-primary: #ffffff;
+$font-color-secondary: #000000;
+
+$background-base-color: #2eb087;
+
+$background-primary: color.adjust($background-base-color, $lightness: -5%);
+$background-secondary: color.adjust($background-base-color, $lightness: 10%);
+$background-terciary: color.adjust($background-base-color, $lightness: 40%);
+$background-quaternary: color.adjust($background-base-color, $lightness: 50%);
